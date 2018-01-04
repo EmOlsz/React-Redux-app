@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 class BookDetails extends Component {
     render() {
         if (!this.props.book) {
-            return <h2>Select a book</h2>
+            return <h2>Select a book!</h2>
         }
         return (
             <div>
