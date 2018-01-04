@@ -1,6 +1,6 @@
-function selectBook(book) {
+export function selectBook(book) {
     return {
         type: 'BOOK_SELECTED',
-        title: book.title
+        payload: book
     }
 }
